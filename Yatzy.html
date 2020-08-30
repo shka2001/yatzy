@@ -1,806 +1,807 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        
-        <title>Yahtzee Format</title>
-        <link rel="stylesheet" href="Yatzy.css">
-           
-    </head>
 
-        
-    </head>
-    
-    <body>
-        <div class="outerbox">
-            <div class="innerbox">
-                <h1>Yahtzee Format</h1>
-                <table class=table boder="1">
-                    <thead>
-                        <tr>
-                            <th class="invisible"></th>
-                            <th class="invisible rightborder"></th>
-                            <th class="YATZY" colspan="3">YATZY</th>
-                            <th class="invisible leftborder"></th>
-                        </tr>
-                        <tr>
-                            <th class="yellow">SPELARE:</th>
-                            <th>Plaryer1:</th>
-                            <th>Plaryer2:</th>
-                            <th>Plaryer3:</th>
-                            <th>Plaryer4:</th>
-                            <th>Plaryer5:</th>
-                            <td class="NUB">Högsta pöäng</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Ettor</td>
-                            <td>
-                                <select class="Times player1">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player2">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player3">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player4">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </td>
-                            <td><input class="player5" type="number" min="0" max="99"></td>
-                            <td class="NUB">1×5=5p</td>
-                        </tr>
-                        <tr>
-                            <td>Tvåor</td>
-                            <td>
-                                <select class="Times player1">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player2">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player3">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player4">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">2×5=10p</td>
-                        </tr>
-                        <tr>
-                            <td>Treor</td>
-                            <td>
-                                <select class="Times player1">
-                                    <option value="0">0</option>
-                                    <option value="3">3</option>
-                                    <option value="6">6</option>
-                                    <option value="9">9</option>
-                                    <option value="12">12</option>
-                                    <option value="15">15</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player2">
-                                    <option value="0">0</option>
-                                    <option value="3">3</option>
-                                    <option value="6">6</option>
-                                    <option value="9">9</option>
-                                    <option value="12">12</option>
-                                    <option value="15">15</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player3">
-                                    <option value="0">0</option>
-                                    <option value="3">3</option>
-                                    <option value="6">6</option>
-                                    <option value="9">9</option>
-                                    <option value="12">12</option>
-                                    <option value="15">15</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player4">
-                                    <option value="0">0</option>
-                                    <option value="3">3</option>
-                                    <option value="6">6</option>
-                                    <option value="9">9</option>
-                                    <option value="12">12</option>
-                                    <option value="15">15</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">3×5=15p</td>
-                        </tr>
-                        <tr>
-                            <td>Fyror</td>
-                            <td>
-                                <select class="Times player1">    
-                                    <option value="0">0</option>
-                                    <option value="4">4</option>
-                                    <option value="8">8</option>
-                                    <option value="12">12</option>
-                                    <option value="16">16</option>
-                                    <option value="20">20</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player2">    
-                                    <option value="0">0</option>
-                                    <option value="4">4</option>
-                                    <option value="8">8</option>
-                                    <option value="12">12</option>
-                                    <option value="16">16</option>
-                                    <option value="20">20</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player3">    
-                                    <option value="0">0</option>
-                                    <option value="4">4</option>
-                                    <option value="8">8</option>
-                                    <option value="12">12</option>
-                                    <option value="16">16</option>
-                                    <option value="20">20</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player4">    
-                                    <option value="0">0</option>
-                                    <option value="4">4</option>
-                                    <option value="8">8</option>
-                                    <option value="12">12</option>
-                                    <option value="16">16</option>
-                                    <option value="20">20</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">4×5=20p</td>
-                        </tr>
-                        <tr>
-                            <td>Femmor</td>
-                            <td>
-                                <select class="Times player1">
-                                    <option value="0">0</option>   
-                                    <option value="5">5</option>
-                                    <option value="10">10</option>
-                                    <option value="15">15</option>
-                                    <option value="20">20</option>
-                                    <option value="25">25</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player2">
-                                    <option value="0">0</option>   
-                                    <option value="5">5</option>
-                                    <option value="10">10</option>
-                                    <option value="15">15</option>
-                                    <option value="20">20</option>
-                                    <option value="25">25</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player3">
-                                    <option value="0">0</option>   
-                                    <option value="5">5</option>
-                                    <option value="10">10</option>
-                                    <option value="15">15</option>
-                                    <option value="20">20</option>
-                                    <option value="25">25</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player4">
-                                    <option value="0">0</option>   
-                                    <option value="5">5</option>
-                                    <option value="10">10</option>
-                                    <option value="15">15</option>
-                                    <option value="20">20</option>
-                                    <option value="25">25</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">5×5=25p</td>
-                        </tr>
-                        <tr>
-                            <td>Sexor</td>
-                            <td>
-                                <select class="Times player1">
-                                    <option value="0">0</option>
-                                    <option value="6">6</option>
-                                    <option value="12">12</option>
-                                    <option value="18">18</option>
-                                    <option value="24">24</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player2">
-                                    <option value="0">0</option>
-                                    <option value="6">6</option>
-                                    <option value="12">12</option>
-                                    <option value="18">18</option>
-                                    <option value="24">24</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player3">
-                                    <option value="0">0</option>
-                                    <option value="6">6</option>
-                                    <option value="12">12</option>
-                                    <option value="18">18</option>
-                                    <option value="24">24</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times player4">
-                                    <option value="0">0</option>
-                                    <option value="6">6</option>
-                                    <option value="12">12</option>
-                                    <option value="18">18</option>
-                                    <option value="24">24</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">6×5=30p</td>
-                        </tr>
-                    </tbody>
-                    <thead>
-                        <tr>
-                            <th class="yellow"><button id="summa">SUMMA:</button></th>
-                            <th class="total player1"></th>
-                            <th class="total player2"></th>
-                            <th class="total player3"></th>
-                            <th class="total player4"></th>
-                            <th></th>
-                            <td class="NUB">105poäng är max</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>BONUS(50)</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="50">50</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="50">50</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="50">50</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="50">50</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">Över 63p=50 bonus</td>
-                        </tr>
-                        <tr>
-                            <td>Par</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                    <option value="12">12</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                    <option value="12">12</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                    <option value="12">12</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="2">2</option>
-                                    <option value="4">4</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                    <option value="12">12</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">6+6=12p</td>
-                        </tr>
-                        <tr>
-                            <td>Två Par</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                    <option value="12">12</option>
-                                    <option value="14">14</option>
-                                    <option value="16">16</option>
-                                    <option value="18">18</option>
-                                    <option value="20">20</option>
-                                    <option value="22">22</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                    <option value="12">12</option>
-                                    <option value="14">14</option>
-                                    <option value="16">16</option>
-                                    <option value="18">18</option>
-                                    <option value="20">20</option>
-                                    <option value="22">22</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                    <option value="12">12</option>
-                                    <option value="14">14</option>
-                                    <option value="16">16</option>
-                                    <option value="18">18</option>
-                                    <option value="20">20</option>
-                                    <option value="22">22</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="6">6</option>
-                                    <option value="8">8</option>
-                                    <option value="10">10</option>
-                                    <option value="12">12</option>
-                                    <option value="14">14</option>
-                                    <option value="16">16</option>
-                                    <option value="18">18</option>
-                                    <option value="20">20</option>
-                                    <option value="22">22</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">6+6+5+5=22p</td>
-                        </tr>
-                        <tr>
-                            <td>Triss</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="3">3</option>
-                                    <option value="6">6</option>
-                                    <option value="9">9</option>
-                                    <option value="12">12</option>
-                                    <option value="15">15</option>
-                                    <option value="18">18</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="3">3</option>
-                                    <option value="6">6</option>
-                                    <option value="9">9</option>
-                                    <option value="12">12</option>
-                                    <option value="15">15</option>
-                                    <option value="18">18</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="3">3</option>
-                                    <option value="6">6</option>
-                                    <option value="9">9</option>
-                                    <option value="12">12</option>
-                                    <option value="15">15</option>
-                                    <option value="18">18</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="3">3</option>
-                                    <option value="6">6</option>
-                                    <option value="9">9</option>
-                                    <option value="12">12</option>
-                                    <option value="15">15</option>
-                                    <option value="18">18</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">6+6+6=18p</td>
-                        </tr>
-                        <tr>
-                            <td>Fyrtal</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="4">4</option>
-                                    <option value="8">8</option>
-                                    <option value="12">12</option>
-                                    <option value="16">16</option>
-                                    <option value="20">20</option>
-                                    <option value="24">24</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="4">4</option>
-                                    <option value="8">8</option>
-                                    <option value="12">12</option>
-                                    <option value="16">16</option>
-                                    <option value="20">20</option>
-                                    <option value="24">24</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="4">4</option>
-                                    <option value="8">8</option>
-                                    <option value="12">12</option>
-                                    <option value="16">16</option>
-                                    <option value="20">20</option>
-                                    <option value="24">24</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="4">4</option>
-                                    <option value="8">8</option>
-                                    <option value="12">12</option>
-                                    <option value="16">16</option>
-                                    <option value="20">20</option>
-                                    <option value="24">24</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">6+6+6+6=24p</td>
-                        </tr>
-                        <tr>
-                            <td>Kåk</td>
-                            <td>
-                                <select class="Times2 player1">
-                                     <option value="0">0</option>
-                                     <option value="7">7</option>
-                                     <option value="8">8</option>
-                                     <option value="9">9</option>
-                                     <option value="11">11</option>
-                                     <option value="12">12</option>
-                                     <option value="13">13</option>
-                                     <option value="14">14</option>
-                                     <option value=15>15</option>
-                                     <option value="16">16</option>
-                                     <option value="17">17</option>
-                                     <option value="18">18</option>
-                                     <option value="19">19</option>
-                                     <option value="20">21</option>
-                                     <option value="21">21</option>
-                                     <option value="22">22</option>
-                                     <option value="23">23</option>
-                                     <option value="24">24</option>
-                                     <option value="26">26</option>
-                                     <option value="27">27</option>
-                                     <option value="28">28</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                    <option value="13">13</option>
-                                    <option value="14">14</option>
-                                    <option value=15>15</option>
-                                    <option value="16">16</option>
-                                    <option value="17">17</option>
-                                    <option value="18">18</option>
-                                    <option value="19">19</option>
-                                    <option value="20">21</option>
-                                    <option value="21">21</option>
-                                    <option value="22">22</option>
-                                    <option value="23">23</option>
-                                    <option value="24">24</option>
-                                    <option value="26">26</option>
-                                    <option value="27">27</option>
-                                    <option value="28">28</option>
-                               </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                    <option value="13">13</option>
-                                    <option value="14">14</option>
-                                    <option value=15>15</option>
-                                    <option value="16">16</option>
-                                    <option value="17">17</option>
-                                    <option value="18">18</option>
-                                    <option value="19">19</option>
-                                    <option value="20">21</option>
-                                    <option value="21">21</option>
-                                    <option value="22">22</option>
-                                    <option value="23">23</option>
-                                    <option value="24">24</option>
-                                    <option value="26">26</option>
-                                    <option value="27">27</option>
-                                    <option value="28">28</option>
-                               </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                    <option value="13">13</option>
-                                    <option value="14">14</option>
-                                    <option value=15>15</option>
-                                    <option value="16">16</option>
-                                    <option value="17">17</option>
-                                    <option value="18">18</option>
-                                    <option value="19">19</option>
-                                    <option value="20">21</option>
-                                    <option value="21">21</option>
-                                    <option value="22">22</option>
-                                    <option value="23">23</option>
-                                    <option value="24">24</option>
-                                    <option value="26">26</option>
-                                    <option value="27">27</option>
-                                    <option value="28">28</option>
-                               </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">6+6+6+5+5=28p</td>
-                        </tr>
-                        <tr>
-                            <td>Liten stege</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="15">15</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="15">15</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="15">15</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="15">15</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">1,2,3,4,5=15p</td>
-                        </tr>
-                        <tr>
-                            <td>Stor stege</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="20">20</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="20">20</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="20">20</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="20">20</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">2,3,4,5,6=20</td>
-                        </tr>
-                        <tr>
-                            <td>Chans</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">6,6,6,6,6=30p</td>
-                        </tr>
-                        <tr>
-                            <td>Yatzy</td>
-                            <td>
-                                <select class="Times2 player1">
-                                    <option value="0">0</option>
-                                    <option value="50">50</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player2">
-                                    <option value="0">0</option>
-                                    <option value="50">50</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player3">
-                                    <option value="0">0</option>
-                                    <option value="50">50</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="Times2 player4">
-                                    <option value="0">0</option>
-                                    <option value="50">50</option>
-                                </select>
-                            </td>
-                            <td></td>
-                            <td class="NUB">x+x+x+x+x=50p</td>
-                        </tr>
-                    </tbody>
-                    <thead>
-                        <tr>
-                            <th class="yellow"><button id="summa2">SUMMA:</button></th>
-                            <th class="total2 player1"></th>
-                            <th class="total2 player2"></th>
-                            <th class="total2 player3"></th>
-                            <th class="total2 player4"></th>
-                            <th></th>
-                            <td>374p är max</td>
-                        </tr>
-                        <tr>
-                            <th class="invisible1"></th>
-                            <th class="invisible rightborder1"></th>
-                            <th class="www" colspan="3">www.spelayatzy.se</th>
-                            <th class="invisible leftborder1"></th>
-                        </tr>
-                    </thead>   
-                </table>
-                <a class="btn btn-primary" href="#">Back</a>
-            </div>
+<head>
+    <meta charset="utf-8">
+
+    <title>Yahtzee Format</title>
+    <link rel="stylesheet" href="Yatzy.css">
+
+</head>
+
+
+</head>
+
+<body>
+    <div class="outerbox">
+        <div class="innerbox">
+            <h1>Yahtzee Format</h1>
+            <table class=table boder="1">
+                <thead>
+                    <tr>
+                        <th class="invisible"></th>
+                        <th class="invisible rightborder"></th>
+                        <th class="YATZY" colspan="3">YATZY</th>
+                        <th class="invisible leftborder"></th>
+                    </tr>
+                    <tr>
+                        <th class="yellow">SPELARE:</th>
+                        <th>Plaryer1:</th>
+                        <th>Plaryer2:</th>
+                        <th>Plaryer3:</th>
+                        <th>Plaryer4:</th>
+                        <th>Plaryer5:</th>
+                        <td class="NUB">Högsta pöäng</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ettor</td>
+                        <td>
+                            <select class="Times player1">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player2">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player3">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player4">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td><input class="player5" type="number" min="0" max="99"></td>
+                        <td class="NUB">1×5=5p</td>
+                    </tr>
+                    <tr>
+                        <td>Tvåor</td>
+                        <td>
+                            <select class="Times player1">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player2">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player3">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player4">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">2×5=10p</td>
+                    </tr>
+                    <tr>
+                        <td>Treor</td>
+                        <td>
+                            <select class="Times player1">
+                                <option value="0">0</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player2">
+                                <option value="0">0</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player3">
+                                <option value="0">0</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player4">
+                                <option value="0">0</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">3×5=15p</td>
+                    </tr>
+                    <tr>
+                        <td>Fyror</td>
+                        <td>
+                            <select class="Times player1">
+                                <option value="0">0</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player2">
+                                <option value="0">0</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player3">
+                                <option value="0">0</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player4">
+                                <option value="0">0</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">4×5=20p</td>
+                    </tr>
+                    <tr>
+                        <td>Femmor</td>
+                        <td>
+                            <select class="Times player1">
+                                <option value="0">0</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player2">
+                                <option value="0">0</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player3">
+                                <option value="0">0</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player4">
+                                <option value="0">0</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">5×5=25p</td>
+                    </tr>
+                    <tr>
+                        <td>Sexor</td>
+                        <td>
+                            <select class="Times player1">
+                                <option value="0">0</option>
+                                <option value="6">6</option>
+                                <option value="12">12</option>
+                                <option value="18">18</option>
+                                <option value="24">24</option>
+                                <option value="30">30</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player2">
+                                <option value="0">0</option>
+                                <option value="6">6</option>
+                                <option value="12">12</option>
+                                <option value="18">18</option>
+                                <option value="24">24</option>
+                                <option value="30">30</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player3">
+                                <option value="0">0</option>
+                                <option value="6">6</option>
+                                <option value="12">12</option>
+                                <option value="18">18</option>
+                                <option value="24">24</option>
+                                <option value="30">30</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times player4">
+                                <option value="0">0</option>
+                                <option value="6">6</option>
+                                <option value="12">12</option>
+                                <option value="18">18</option>
+                                <option value="24">24</option>
+                                <option value="30">30</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">6×5=30p</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th class="yellow"><button id="summa">SUMMA:</button></th>
+                        <th class="total player1"></th>
+                        <th class="total player2"></th>
+                        <th class="total player3"></th>
+                        <th class="total player4"></th>
+                        <th></th>
+                        <td class="NUB">105poäng är max</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BONUS(50)</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="50">50</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="50">50</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="50">50</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="50">50</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">Över 63p=50 bonus</td>
+                    </tr>
+                    <tr>
+                        <td>Par</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">6+6=12p</td>
+                    </tr>
+                    <tr>
+                        <td>Två Par</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                                <option value="14">14</option>
+                                <option value="16">16</option>
+                                <option value="18">18</option>
+                                <option value="20">20</option>
+                                <option value="22">22</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                                <option value="14">14</option>
+                                <option value="16">16</option>
+                                <option value="18">18</option>
+                                <option value="20">20</option>
+                                <option value="22">22</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                                <option value="14">14</option>
+                                <option value="16">16</option>
+                                <option value="18">18</option>
+                                <option value="20">20</option>
+                                <option value="22">22</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                                <option value="14">14</option>
+                                <option value="16">16</option>
+                                <option value="18">18</option>
+                                <option value="20">20</option>
+                                <option value="22">22</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">6+6+5+5=22p</td>
+                    </tr>
+                    <tr>
+                        <td>Triss</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                                <option value="18">18</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                                <option value="18">18</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                                <option value="18">18</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                                <option value="18">18</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">6+6+6=18p</td>
+                    </tr>
+                    <tr>
+                        <td>Fyrtal</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                                <option value="24">24</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                                <option value="24">24</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                                <option value="24">24</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                                <option value="24">24</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">6+6+6+6=24p</td>
+                    </tr>
+                    <tr>
+                        <td>Kåk</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value=15>15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">21</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value=15>15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">21</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value=15>15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">21</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value=15>15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">21</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">6+6+6+5+5=28p</td>
+                    </tr>
+                    <tr>
+                        <td>Liten stege</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="15">15</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="15">15</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="15">15</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="15">15</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">1,2,3,4,5=15p</td>
+                    </tr>
+                    <tr>
+                        <td>Stor stege</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="20">20</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="20">20</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="20">20</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="20">20</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">2,3,4,5,6=20</td>
+                    </tr>
+                    <tr>
+                        <td>Chans</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="30">30</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="30">30</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="30">30</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="30">30</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">6,6,6,6,6=30p</td>
+                    </tr>
+                    <tr>
+                        <td>Yatzy</td>
+                        <td>
+                            <select class="Times2 player1">
+                                <option value="0">0</option>
+                                <option value="50">50</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player2">
+                                <option value="0">0</option>
+                                <option value="50">50</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player3">
+                                <option value="0">0</option>
+                                <option value="50">50</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="Times2 player4">
+                                <option value="0">0</option>
+                                <option value="50">50</option>
+                            </select>
+                        </td>
+                        <td></td>
+                        <td class="NUB">x+x+x+x+x=50p</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th class="yellow"><button id="summa2">SUMMA:</button></th>
+                        <th class="total2 player1"></th>
+                        <th class="total2 player2"></th>
+                        <th class="total2 player3"></th>
+                        <th class="total2 player4"></th>
+                        <th></th>
+                        <td>374p är max</td>
+                    </tr>
+                    <tr>
+                        <th class="invisible1"></th>
+                        <th class="invisible rightborder1"></th>
+                        <th class="www" colspan="3">www.spelayatzy.se</th>
+                        <th class="invisible leftborder1"></th>
+                    </tr>
+                </thead>
+            </table>
+            <a class="btn btn-primary" href="#">Back</a>
         </div>
-        <!--/.container -->
-        
-        
-        <script src="YatzyFormat.js"></script>
-    </body>
+    </div>
+    <!--/.container -->
+
+
+    <script src="YatzyFormat.js"></script>
+</body>
 
 </html>
