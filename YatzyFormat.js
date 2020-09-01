@@ -1,6 +1,15 @@
 let sum = [0, 0, 0, 0, 0];
 
 document.addEventListener("DOMContentLoaded", function (event) {
+  let roll = document.getElementById("roll");
+  roll.addEventListener("click", function (event) {
+    for (dice = 1; dice <= 5; dice++) {
+      let dicenr = parseInt(Math.random() * 6 + 1);
+      let imgdice = document.getElementById("T" + dice);
+      imgdice.src = "Terning" + dicenr + ".svg";
+    }
+  });
+
   let calc_button = document.getElementById("summa");
   calc_button.addEventListener("click", function (event) {
     for (let player = 1; player <= 5; player++) {
