@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+.DarkGray {
+  background-color: rgb(70, 67, 67);
+}
+
+td:nth-child(even) {
+  background-color: grey;
+}
+
+th {
+  background-color: rgb(167, 165, 165);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+input {
+  max-width: 50px;
+  background-color: transparent;
+  boder: 0;
+}
+
+.chattrum {
+  margin: 150px;
+  border: 2px solid black;
+}
+
+.chatbox {
+  width: 500px;
+  margin: 20px;
+  border: 1px solid black;
+}
